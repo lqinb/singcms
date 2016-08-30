@@ -2,7 +2,7 @@
 namespace Admin\Controller;
 use Think\Controller;
 
-/**
+/**123
  * menu控制
  */
 
