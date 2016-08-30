@@ -1,0 +1,1425 @@
+[ 2016-08-12T09:35:42+08:00 ] 172.16.42.0 /admin.php?c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:8.560472s ]
+INFO: [ view_parse ] --END-- [ RunTime:8.560806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007988s ]
+
+[ 2016-08-12T09:35:54+08:00 ] 172.16.42.0 /admin.php?c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000189s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:4.275533s ]
+INFO: [ view_parse ] --END-- [ RunTime:4.275904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007007s ]
+
+[ 2016-08-12T09:36:12+08:00 ] 172.16.42.0 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000497s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:15.678840s ]
+INFO: [ view_parse ] --END-- [ RunTime:15.679174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009470s ]
+
+[ 2016-08-12T09:36:39+08:00 ] 172.16.42.0 /admin.php?c=admin&a=personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006118s ]
+ERR: 无法加载控制器:Admin
+
+[ 2016-08-12T09:37:55+08:00 ] 172.16.42.0 /index.php?m=admin&c=login&a=loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007893s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:38:15+08:00 ] 172.16.42.0 /index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004166s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:9.790860s ]
+INFO: [ view_parse ] --END-- [ RunTime:9.791253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006337s ]
+
+[ 2016-08-12T09:38:30+08:00 ] 172.16.42.0 /index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013561s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:11.461967s ]
+INFO: [ view_parse ] --END-- [ RunTime:11.462329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007014s ]
+
+[ 2016-08-12T09:39:22+08:00 ] 172.16.42.0 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:9.685965s ]
+INFO: [ view_parse ] --END-- [ RunTime:9.686333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005999s ]
+
+[ 2016-08-12T09:39:39+08:00 ] 172.16.42.0 /index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:4.251901s ]
+INFO: [ view_parse ] --END-- [ RunTime:4.252190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007507s ]
+
+[ 2016-08-12T09:40:56+08:00 ] 172.16.42.0 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004677s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.860491s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.860814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011398s ]
+
+[ 2016-08-12T09:40:59+08:00 ] 172.16.42.0 /index.php?m=admin&c=login&a=loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011168s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:41:04+08:00 ] 172.16.42.0 /index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.726870s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.727099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006060s ]
+
+[ 2016-08-12T09:41:07+08:00 ] 172.16.42.0 /index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007492s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.167367s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.167704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006163s ]
+
+[ 2016-08-12T09:44:22+08:00 ] 172.16.42.0 /index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009624s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.290965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.291279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006664s ]
+
+[ 2016-08-12T09:44:31+08:00 ] 172.16.42.0 /index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006289s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:7.918500s ]
+INFO: [ view_parse ] --END-- [ RunTime:7.918827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011982s ]
+
+[ 2016-08-12T09:47:23+08:00 ] 172.16.42.0 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.690619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.691081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009982s ]
+
+[ 2016-08-12T09:47:36+08:00 ] 172.16.42.0 /index.php?m=admin&c=login&a=loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006079s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:47:43+08:00 ] 172.16.42.0 /index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007886s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:3.816230s ]
+INFO: [ view_parse ] --END-- [ RunTime:3.816496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006679s ]
+
+[ 2016-08-12T09:47:59+08:00 ] 172.16.42.0 /index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006126s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:14.482227s ]
+INFO: [ view_parse ] --END-- [ RunTime:14.482512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008973s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006844s ]
+
+[ 2016-08-12T09:48:28+08:00 ] 172.16.42.0 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004672s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000645s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.459158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.459469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008875s ]
+
+[ 2016-08-12T09:50:34+08:00 ] 172.16.42.0 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005735s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:36+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007005s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:37+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007473s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:37+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000179s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005514s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:37+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007384s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:39+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005646s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:40+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005927s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:40+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010751s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:42+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006552s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:43+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008322s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:43+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009406s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:45+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006121s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:45+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005565s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:46+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005728s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:48+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003592s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:48+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007729s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:49+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006874s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:51+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006277s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:51+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005689s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:52+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009710s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:50:57+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006949s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:05+08:00 ] 172.16.42.0 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005710s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:09+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003184s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:10+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003123s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:13+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004363s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:16+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006448s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:19+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005722s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:21+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005422s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:22+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004161s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:24+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005978s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:26+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005486s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:27+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008654s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:30+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006701s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:32+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005900s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:33+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007264s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:33+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004338s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:36+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008499s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:38+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007526s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:39+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004875s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:39+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000223s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009883s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:43+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004857s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:46+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006177s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:52+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000504s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009325s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:51:55+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003983s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:52:09+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005784s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:52:11+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006541s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:56:29+08:00 ] 172.16.42.0 /index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007153s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:3.659704s ]
+INFO: [ view_parse ] --END-- [ RunTime:3.660033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007818s ]
+
+[ 2016-08-12T09:56:37+08:00 ] 172.16.42.0 /index.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:3.971224s ]
+INFO: [ view_parse ] --END-- [ RunTime:3.971496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007676s ]
+
+[ 2016-08-12T09:57:12+08:00 ] 172.16.42.0 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009387s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:57:18+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005726s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:4.162029s ]
+INFO: [ view_parse ] --END-- [ RunTime:4.162308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.031175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021053s ]
+
+[ 2016-08-12T09:57:26+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005713s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:4.473297s ]
+INFO: [ view_parse ] --END-- [ RunTime:4.473663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005429s ]
+
+[ 2016-08-12T09:57:27+08:00 ] 172.16.42.0 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006951s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:57:34+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005578s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:5.469686s ]
+INFO: [ view_parse ] --END-- [ RunTime:5.470041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005368s ]
+
+[ 2016-08-12T09:57:36+08:00 ] 172.16.42.0 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003731s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:57:42+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007161s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.693633s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.694257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007111s ]
+
+[ 2016-08-12T09:57:45+08:00 ] 172.16.42.0 /admin.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.496187s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.496558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004159s ]
+
+[ 2016-08-12T09:58:06+08:00 ] 172.16.42.0 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:8.2936s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0155s ]
+
+[ 2016-08-12T09:58:16+08:00 ] 172.16.42.0 /index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005857s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.436240s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.436517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011011s ]
+
+[ 2016-08-12T09:58:22+08:00 ] 172.16.42.0 /index.php?m=admin&c=login&a=loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013116s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T09:58:23+08:00 ] 172.16.42.0 /index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008174s ]
+
+[ 2016-08-12T09:58:31+08:00 ] 172.16.42.0 /index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004995s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:7.501508s ]
+INFO: [ view_parse ] --END-- [ RunTime:7.501875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007550s ]
+
+[ 2016-08-12T09:58:32+08:00 ] 172.16.42.0 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005139s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2016-08-12T09:58:34+08:00 ] 172.16.42.0 /index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.457206s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.457525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006524s ]
+
+[ 2016-08-12T10:50:25+08:00 ] 172.16.42.0 /index.php?m=admin&c=login&a=loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006499s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-12T10:50:34+08:00 ] 172.16.42.0 /index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003549s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:4.512079s ]
+INFO: [ view_parse ] --END-- [ RunTime:4.512249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004219s ]
+
+[ 2016-08-12T10:50:38+08:00 ] 172.16.42.0 /index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.527605s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.527978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007097s ]
+
+[ 2016-08-12T10:50:48+08:00 ] 172.16.42.0 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004365s ]
+
+[ 2016-08-12T10:51:48+08:00 ] 172.16.42.0 /index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007734s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:5.660689s ]
+INFO: [ view_parse ] --END-- [ RunTime:5.660847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004392s ]
+
+[ 2016-08-12T10:51:51+08:00 ] 172.16.42.0 /index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.683125s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.683279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005012s ]
+
+[ 2016-08-12T10:52:05+08:00 ] 172.16.42.0 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002901s ]
+
+[ 2016-08-12T10:52:41+08:00 ] 172.16.42.0 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007012s ]
+
+[ 2016-08-12T15:38:16+08:00 ] 172.16.42.0 /index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005753s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005394s ]
+
+[ 2016-08-12T15:38:29+08:00 ] 172.16.42.0 /index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003446s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:4.345820s ]
+INFO: [ view_parse ] --END-- [ RunTime:4.345997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003834s ]
+
+[ 2016-08-12T15:38:39+08:00 ] 172.16.42.0 /index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003371s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.858194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.858355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003756s ]
+
+[ 2016-08-12T15:38:50+08:00 ] 172.16.42.0 /index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:10.189945s ]
+INFO: [ view_parse ] --END-- [ RunTime:10.190146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002986s ]
+
+[ 2016-08-12T15:42:38+08:00 ] 172.16.42.0 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004298s ]
+
+[ 2016-08-12T15:42:51+08:00 ] 172.16.42.0 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003646s ]
+
+[ 2016-08-12T16:26:37+08:00 ] 172.16.42.0 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004844s ]
+

@@ -1,0 +1,172 @@
+[ 2016-08-22T19:10:39+08:00 ] 172.16.176.0 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004849s ]
+NOTIC: [8] Undefined variable: module /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /data/webroot/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2016-08-22T19:10:40+08:00 ] 172.16.176.0 /admin.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003331s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005283s ]
+
+[ 2016-08-22T19:10:54+08:00 ] 172.16.176.0 /admin.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:3.093730s ]
+INFO: [ view_parse ] --END-- [ RunTime:3.093965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004609s ]
+
+[ 2016-08-22T19:11:09+08:00 ] 172.16.176.0 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003553s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0658s ]
+ERR: Think\Model:getAdminByUsername方法不存在！
+
+[ 2016-08-22T19:11:09+08:00 ] 172.16.176.0 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004847s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0172s ]
+ERR: Think\Model:getAdminByUsername方法不存在！
+
+[ 2016-08-22T19:11:27+08:00 ] 172.16.176.0 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005238s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0077s ]
+ERR: Think\Model:getAdminByUsername方法不存在！
+
+[ 2016-08-22T19:12:21+08:00 ] 172.16.176.0 /index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003902s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0106s ]
+
+[ 2016-08-22T19:12:26+08:00 ] 172.16.176.0 /index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.839866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.840122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009386s ]
+
+[ 2016-08-22T19:12:36+08:00 ] 172.16.176.0 /index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.807766s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.808097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005796s ]
+
+[ 2016-08-22T19:12:39+08:00 ] 172.16.176.0 /index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003704s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004155s ]
+
+[ 2016-08-22T19:12:41+08:00 ] 172.16.176.0 /index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003679s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.734684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.734859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003747s ]
+
